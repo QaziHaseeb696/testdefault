@@ -1,0 +1,47 @@
+body{
+  font-size: 16px;
+  background-color:green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar.navbar-default {
+  background-color:pink;
+  border-radius:0;
+  border: 1px solid black;
+  }
+  .navbar-default .navbar-brand {
+    color: blue(90, 38, 38);
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(55, 47, 27);
+  }
+  .navbar-default .navbar-toggle.collapsed {
+    border-color: purple;
+  }
+  .navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: purple;
+  }
+   /* .navbar-default .navbar-toggle:hover .icon-bar, */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(174, 224, 220);
+  }
+  
+  #navbar-menu li {
+    border: 1px solid green;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  div.section {
+    background-color: #ddd;
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar-menu {
+      background-color: lightblue;
+    }
+  }
+   
